@@ -5,7 +5,7 @@ An LED controller for addressable led strips compatible with WS2812B.
  * The led strip is controlled via an Android app
  * The app uses a bluetooth connection to send commands to the led controller.
  * The app provides a list of effects and commands that can be selected to display on the leds.
- * Also it is possible to create custom effects to display from the app.
+ * Also it is possible to create custom effects to display
  
  Android apk: <a>https://github.com/dobrovv/LED_Controller/blob/master/Android/app/release/app-release.apk</a>
  
