@@ -44,9 +44,13 @@ public class LedServerFragment extends Fragment {
     private Switch loopSwitch;
 
 
-    private static volatile Boolean cmdThreadActive = false;
-    private static volatile Boolean runOnce = false;
+    private static volatile Boolean cmdThreadActive = false; // specifies if the ServerFragmanet is currently active, if so the thread is activated on the Run button press, otherwise the server thread sleeps.
+    private static volatile Boolean runOnce = false; // specifies if the thread should loop on the commands list instead of exiting
 
+    // A new thread to run user specified commands from the Android app
+    // each cmd is a <cmd>#<delay> string that is send to the bluno board 
+    // the cmd command is sent using the ble serial write, and then the thread sleeps for the specified cmd.delay, ms
+    
     private static Thread cmdThread = new Thread() {
         @Override
         public void run() {
