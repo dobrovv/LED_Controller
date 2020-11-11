@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="PREF_DEVICE_ADDRESS"
+        android:title="Device Address"
+        android:summary="The Bluetooth address of the LED Controller"
+        android:dialogTitle="MAC address"
+        android:editable="false"
+        android:defaultValue = ""/>
+
+
+
+
+</PreferenceScreen>

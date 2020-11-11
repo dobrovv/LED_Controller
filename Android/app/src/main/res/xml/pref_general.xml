@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="PREF_TURNOFFONEXIT"
+        android:summary="Switch Off LED's on exiting the App"
+        android:title="Switch off on Exit" />
+
+<!--    <ListPreference-->
+<!--        android:title="Transition"-->
+<!--        android:entries="@array/ColorChangeModes"-->
+<!--        android:entryValues="@array/ColorChangeModes"-->
+<!--        android:key="transition"-->
+<!--        android:summary="Mode for chaning LED-Color e.g. fading\nRange 0-255" />-->
+
+    <EditTextPreference
+        android:key="PREF_PIXELS_NUM"
+        android:title="Pixel count"
+        android:summary="Number of pixels on the LED strip"
+        android:inputType="numberDecimal"
+        android:maxLength="2"
+        android:defaultValue = "24"
+        />
+
+    <EditTextPreference
+        android:key="PREF_BRIGHTNESS"
+        android:title="Default Brightness"
+        android:summary="The default brightness of the LED strip"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:defaultValue = "50"
+        />
+
+
+</PreferenceScreen>

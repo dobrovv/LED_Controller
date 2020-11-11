@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_controller"
+            android:icon="@drawable/ic_menu_main_controller"
+            android:title="Main Cotroller" />
+        <item
+            android:id="@+id/nav_presets"
+            android:icon="@drawable/ic_menu_presets"
+            android:title="Presets" />
+        <item
+            android:id="@+id/nav_effects"
+            android:icon="@drawable/ic_menu_effects"
+            android:title="Effects" />
+        <item
+            android:id="@+id/nav_led_servers"
+            android:icon="@drawable/ic_menu_server"
+            android:title="LED Server" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Developer" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="Exit" />
+
+
+</menu>
