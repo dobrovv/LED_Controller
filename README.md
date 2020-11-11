@@ -1,5 +1,3 @@
-# LED_Controller
-
 <h2>Wireless LED controller</h2> 
 
 An LED controller for addressable led strips compatible with WS2812B.
