@@ -14,7 +14,7 @@ An LED controller for addressable led strips compatible with WS2812B.
 
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200810_001049.jpg?raw=true" width="450" height="800">
 
-The chassing contains the Arduino board and a power bank. It can be moved around. The power source is a 5V power bank.
+The chassing contains the Arduino board and a power bank. It can be moved around or it can be sticked to a surface. The power source is a regular 5V power bank.
 
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200823_015720.jpg?raw=true" width="450" height="800">
 
