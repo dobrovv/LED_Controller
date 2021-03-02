@@ -11,6 +11,7 @@ An LED controller for addressable led strips compatible with WS2812B.
  
  
  I am using a BLUNO Beetle BLE board, to connect the bluetooth receiver to Android and drive the led strip.
+ The Beetle is an Arduino compatible board with an HC-05 Bluetooth Module pre-installed on the board. The bluetooth module is connected via a serial interface to the Beetle and is controlled via serial writes and serial reads.
 
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200810_001049.jpg?raw=true" width="450" height="800">
 
