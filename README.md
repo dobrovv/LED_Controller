@@ -17,18 +17,14 @@ An LED controller for addressable led strips compatible with WS2812B.
 
 The casing contains the Arduino board and a power bank. It can be sticked to a surface or moved around. The power source for the controller is a regular 5V power bank available in the stores. The power bank is used to power the Arduino controller and the led strip.
 
-<p align="left">
-<img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200823_015720.jpg?raw=true" width="338" height="600">
-</p>
-
-Rainbow effect selected remotely from the app and displayed on the strip of 24 WS2812B LEDs
-
-<p align="center">
-<img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200823_021428_2.jpg?raw=true" width="800" height="450">
-</p>
-
-The main UI view of the app  
+The main UI activity of the Android app.  
 
 <p align="center">
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/0.jpg?raw=true">
+</p>
+
+Rainbow effect selected remotely from the app and displayed on the strip of 24 WS2812B LEDs.
+
+<p align="center">
+<img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200823_021428_2.jpg?raw=true" width="800" height="450">
 </p>
