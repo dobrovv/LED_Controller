@@ -10,7 +10,7 @@ An LED controller for addressable led strips compatible with WS2812B.
  Android apk: <a>https://github.com/dobrovv/LED_Controller/blob/master/Android/app/release/app-release.apk</a>
  
  
- For this project, I am using a <a href="https://www.dfrobot.com/product-1259.html">BLUNO Beetle BLE board<a> to connect the bluetooth receiver to the Android and drive the led strips.
+ In this project, I am using a <a href="https://www.dfrobot.com/product-1259.html">BLUNO Beetle BLE board<a> to connect the bluetooth receiver to the Android app and drive the led strips.
  The Beetle is an Arduino compatible microcontroller board with an integrated HC-05 Bluetooth Module.
  The HC-05 bluetooth module is connected to the Beetle as an USART serial device, controllable via the ```write``` and ```read``` system calls. 
  The Bluno Beetle receives commands via BLE from the Android app. The app works as a wireless controller for the LED strips using an _improved_ BLE driver.
@@ -27,7 +27,7 @@ Rainbow effect selected remotely from the app and displayed on the strip of 24 W
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/20200823_021428_2.jpg?raw=true" width="800" height="450">
 </p>
 
-The main UI view
+The main UI view of the app  
 
 <p align="center">
 <img src="https://github.com/dobrovv/LED_Controller/blob/master/Screens/0.jpg?raw=true">
